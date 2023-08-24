@@ -1,0 +1,36 @@
+package controle;
+
+import java.util.Scanner;
+
+public class DesafioDiaSemana {
+
+	public static void main(String[] args) {
+		
+		// Domingo -> 1
+		// Segunda -> 2
+		// Terça -> 3
+		// Quarta -> 4
+		// Quinta -> 5
+		// Sexta -> 6
+		// Sabado -> 7
+		// Usuário vai digitar o dia da semana ex: SEXTA e o programa vai retornar o número ex: 6.
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		System.out.print("Escreva um dia da semana: ");
+		String DiaSemana = entrada.next();
+		
+		String  Segunda = "1";
+//		String  Terça = "2";
+//		String  Quarta = "3";
+//		String  Quinta = "4";
+//		String  Sexta = "5";
+//		String  Sábado = "6";
+//		String  Domingo = "7";
+		
+		if (DiaSemana.equals(Segunda)) {
+			System.out.println(Segunda);
+		}
+		entrada.close();
+	}
+}

@@ -1,0 +1,19 @@
+package fundamentos;
+
+public class DesafioAritmeticos {
+
+	public static void main(String[] args) {
+		
+		/**
+		int a = 3 * 4 - 10;
+		//int b = Math.pow(a, 3);
+		int b = (int)Math.pow(a, 3); // cast int pois a função pow retorna double
+		
+		System.out.println(b);
+		*/
+		int parte1 = 6 * (3+2) / (3 * 2);
+		int parte1aoquadrado = (int)Math.pow(parte1, 2);
+		
+		System.out.println(parte1aoquadrado);
+	}
+}

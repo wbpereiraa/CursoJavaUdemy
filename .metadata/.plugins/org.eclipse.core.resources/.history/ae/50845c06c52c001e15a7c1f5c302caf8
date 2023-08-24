@@ -1,0 +1,17 @@
+package oo.composicao.desafio;
+
+public class Sistema {
+
+	public static void main(String[] args) {
+		
+		Cliente cliente1 = new Cliente("William");
+		
+		
+		Compra compra1 = new Compra();
+		compra1.obterItens(new Produto("Arroz", 2.50));
+		
+	
+		
+		
+}
+}

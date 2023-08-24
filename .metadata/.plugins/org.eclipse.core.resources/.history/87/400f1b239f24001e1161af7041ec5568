@@ -1,0 +1,33 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class Matriz {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+
+		System.out.print("Quantos alunos? ");
+		int qtdAlunos = entrada.nextInt();
+		
+		System.out.print("Quantas notas? ");
+		int qtdNotas = entrada.nextInt();
+		
+		double [][] notasDaTurma = new double [qtdAlunos][qtdNotas];
+		
+		double total = 0;
+		for (int aluno = 0; aluno < notasDaTurma.length; aluno++) {
+			for (int notas = 0; notas < notasDaTurma.length; notas++) {
+				System.out.printf("Informe a nota %d do aluno %d: ", aluno + 1, notas + 1);
+				notasDaTurma[aluno][notas] = entrada.nextDouble();
+				total += notasDaTurma[aluno][notas];
+			}
+		}
+		
+		double media = total / (qtdAlunos * qtdNotas);
+		System.out.println("Média da turma é " + media);
+		
+		entrada.close();
+	}
+}

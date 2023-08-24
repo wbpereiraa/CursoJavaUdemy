@@ -1,0 +1,8 @@
+package classe.desafio1;
+
+public class Comida {
+
+		String comida1;
+		String comida2;
+		
+}

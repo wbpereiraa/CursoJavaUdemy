@@ -1,0 +1,23 @@
+package controle;
+
+import java.util.Scanner;
+
+public class ExercicioEstruturaDeControle7 {
+
+	public static void main(String[] args) {
+		
+		Scanner entrada = new Scanner(System.in);
+
+		int numero = 0;
+		
+		while(numero >= 0) {
+			numero = entrada.nextInt();
+			System.out.println("Digite um número: ");
+			System.out.printf("soma %", numero);
+		}if (numero < 0) {
+			System.out.println("Encerrando...");
+		}
+
+		entrada.close();
+	}
+}

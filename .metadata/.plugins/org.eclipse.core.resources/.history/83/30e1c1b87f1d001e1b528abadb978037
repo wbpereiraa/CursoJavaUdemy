@@ -1,0 +1,16 @@
+package classe;
+
+public class PrimeiroTrauma {
+
+	int a = 3; // não mexer aqui
+	
+	PrimeiroTrauma(int b){
+		b = a;
+	}
+	public static void main(String[] args) {
+		
+		PrimeiroTrauma a1 = new PrimeiroTrauma(3);
+		a1.a = 3;
+		System.out.println(a1.a); 
+	}
+}

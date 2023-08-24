@@ -1,0 +1,27 @@
+package arrays;
+
+import java.util.Scanner;
+
+public class DesafioArray {
+
+	public static void main(String[] args) {
+		
+		//CALCULAR A MÉDIA DO ALUNO, COM O ALUNO PASSANDO AS INFORMAÇÕES(SCANNER)
+		//QUANTAS NOTAS VOCE QUER INFORMAR?
+		//2 LAÇOS FOR. NO PRIMEIRO ARMAZENAR AS NOTAS NO ARRAY
+		//CALCULAR A MEDIA NO SEGUNDO ARRAY USANDO O FOREACH
+		
+		
+		Scanner entrada = new Scanner(System.in);
+		
+		int cont = 0;
+		
+		while(cont != 0) {
+		System.out.println("Quantas notas deseja informar? ");
+		}
+		
+		
+		
+		entrada.close();
+	}
+}
