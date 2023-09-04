@@ -1,8 +1,0 @@
-package oo.heranca.desafio;
-
-public class Parati extends Carro {
-
-	double velocidadeMaximaParati = 170;
-	
-	
-}
